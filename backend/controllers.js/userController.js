@@ -74,6 +74,9 @@ const getMe = asyncHandler(async (req, res) => {
 		name,
 		email,
 	});
+	res.status(401).json({
+		message: 'get Me here',
+	});
 });
 
 //Generate JWT

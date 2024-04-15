@@ -5,9 +5,10 @@ function Header() {
 		<header className="header">
 			<div className="logo">
 				<Link to="/">
-					<img src="/salty-logo.png" alt="logo" width="100" height="100" />
+					<img src="./" alt="logo" width="100" height="100" />
 				</Link>
 			</div>
+
 			<ul>
 				<li>
 					<Link to="/login">
